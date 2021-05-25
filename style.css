@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --light-gray: #F7F9FA;
+}
+
+* {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif !important;
+}
+
+.gr-commentForm {
+  border-top: none !important;
+}
+
+.gr-box--withShadow {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0%) !important;
+}
+
+.gr-childNewsfeedItem__header, .gr-newsfeedItem {
+  border-radius: 10px !important;
+  /* border: none !important; */
+}
+
+.gr-childNewsfeedItem__header {
+  /* border: none !important; */
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.gr-commentForm {
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+.likeInformation {
+  border-top: none !important;
+}
+
+input[type=text],
+input[type=number],
+input[type=search],
+input[type=email],
+input[type=number],
+input[type=password],
+textarea {
+  border: none !important;
+  border-radius: 15px !important;
+}
+
+.gr-commentForm {
+  padding: 12px !important;
+}
+.gr-commentForm__textarea {
+  width: calc(97% - 32px) !important;
+}
+
+.gr-textInput, .gr-textarea, input[type=number] {
+  padding: 10px 16px !important;
+}
+
+#books.table .field {
+  padding: 15px 5px 15px 0 !important;
+}
+
+.elementListBrown {
+  padding: 15px 0px !important;
+}
+
+.review .left.imgcol img {
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.gr-book {
+  margin: 15px 0px !important;
+}
+
+.likeInformation, .gr-comments__seeAllLinkBox, .gr-commentForm {
+  padding-left: 16px !important;
+}
+.gr-comments > div {
+  padding-left: 16px !important;
+}
+
+.gr-book__image, .bookCoverContainer img, .cover img {
+  border-radius: 4px !important;
+}
+
+.gr-homePageBody {
+  background-color: var(--light-gray) !important;
+}
+/* .siteHeader__topLine {
+  background: white !important;
+} */
+
+.gr-childNewsfeedItem__header + .gr-newsfeedItem {
+  border-radius: 0px 0px 10px 10px !important;
+  /* border: none !important; */
+}
+
+@media (min-width: 1220px) {
+  main {
+    width: 960px !important;
+  }
+  .homePrimaryColumn {
+    width: 625px !important;
+    padding-right: 10px !important;
+    padding-left: 8px !important;
+    margin-right: 0px !important;
+  }
+  .homeSecondaryColumn {
+    float: right !important;
+    width: 300px !important;
+    margin-left: 8px !important;
+    margin-right: 0px !important;
+  }
+}
+.homeTertiaryColumn {
+  display: none !important;
+}
+.gr-newsfeedItem__reviewText, .gr-newsfeedItem__reviewText > .expandableHtml,
+.newsfeedItem__sharingNonBookBody,
+.gr-newsfeedItem__socialBookUpdateDetails,
+.gr-newsfeedItem__userStatusText {
+  max-width: 100% !important;
+}
+/* .gr-childNewsfeedItem__header {
+  -webkit-box-shadow: 5px 5px 41px -6px rgba(0,0,0,0.09) !important; 
+  box-shadow: 5px 5px 41px -6px rgba(0,0,0,0.09) !important;
+} */
+/* .siteHeader__contents {
+  width: 70% !important;
+}
+main {
+  width: 70% !important;
+}
+.homePrimaryColumn {
+  width: 44% !important;
+  margin-left: 0px !important;
+  margin-right: 2% !important;
+}
+.homeSecondaryColumn {
+  width: 26% !important;
+  margin-left: 0px !important;
+  margin-right: 2% !important;
+}
+.homeTertiaryColumn {
+  width: 26% !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+} */
